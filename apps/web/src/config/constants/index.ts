@@ -31,4 +31,4 @@ export const PREDICTION_TOOLTIP_DISMISS_KEY = 'prediction-switcher-dismiss-toolt
 export const GELATO_NATIVE = '0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee'
 
 export const EXCHANGE_DOCS_URLS = 'https://dexturk.com'
-export const EXCHANGE_HELP_URLS = 'https://discord.com/invite/svja2EyT99'
+export const EXCHANGE_HELP_URLS = 'https://discord.gg/kebab'
