@@ -8,14 +8,15 @@ export const CAKE_MAINNET = new ERC20Token(
   'PancakeSwap Token',
   'https://pancakeswap.finance/',
 )
-//0x833589fcd6edb6e08f4c7c32d4f71b54bda02913 base ağındaki eth
+
 export const USDC_BASE = new ERC20Token(
   ChainId.BASE,
   '0x833589fcd6edb6e08f4c7c32d4f71b54bda02913',
-  6,
+  6, // Burada virgül eklendi
   'USDC',
   'USD Coin',
 )
+
 
 export const CAKE_TESTNET = new ERC20Token(
   ChainId.BSC_TESTNET,
