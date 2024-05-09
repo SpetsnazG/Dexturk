@@ -159,3 +159,11 @@ export const WBTC_ETH = new ERC20Token(
   'WBTC',
   'Wrapped BTC',
 )
+//0x833589fcd6edb6e08f4c7c32d4f71b54bda02913 base ağındaki eth
+export const USDC_BASE = new ERC20Token(
+  ChainId.BASE,
+  '0x833589fcd6edb6e08f4c7c32d4f71b54bda02913'
+  6,
+  'USDC',
+  'USD Coin',
+)
