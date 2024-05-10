@@ -114,43 +114,4 @@ export const bscTest: Chain = {
   },
   testnet: true,
 }
-
-export const BASE: Chain = {
-  id: 8453,
-  name: 'Base Network',
-  network: 'Base Mainnet',
-  nativeCurrency: {
-    decimals: 18,  //buraya da bak base ağı YAP
-    name: 'Ethereum',
-    symbol: 'ETH',
-  },
-  rpcUrls: {
-    public: 'https://mainnet.base.org',
-    default: 'https://mainnet.base.org',
-  },
-  blockExplorers: {
-    default: { name: 'BaseScan', url: 'https://basescan.org' },
-  },
-  testnet: false,
-}
-
-export const BASETEST: Chain = {
-  id: 8453,
-  name: 'Base Network',
-  network: 'Base Mainnet',
-  nativeCurrency: {
-    decimals: 18,  //buraya da bak base ağı YAP
-    name: 'Ethereum',
-    symbol: 'ETH',
-  },
-  rpcUrls: {
-    public: 'https://sepolia.base.org',
-    default: 'https://sepolia.base.org',
-  },
-  blockExplorers: {
-    default: { name: 'Sepolia Explorer', url: 'https://sepolia-explorer.base.org' },//yap düzelt
-  },
-  testnet: true,
-}
-
 export { mainnet, rinkeby, goerli }
