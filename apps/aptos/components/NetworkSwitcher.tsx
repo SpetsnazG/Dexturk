@@ -11,8 +11,6 @@ import { aptosLogoClass } from './Logo/CurrencyLogo.css'
 const evmChains = [
   { id: 56, name: 'BNB Smart Chain' },
   { id: 1, name: 'Ethereum' },
-  { id: 8453, name: 'Base' },
-  { id: 84532, name: 'Base Sepolia' },
 ]
 
 const NetworkSelect = () => {
