@@ -112,7 +112,6 @@ export const DEFAULT_OUTPUT_CURRENCY = '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE
 // Handler string is passed to Gelato to use PCS router
 export const GELATO_HANDLER = 'pancakeswap'
 export const GENERIC_GAS_LIMIT_ORDER_EXECUTION = BigNumber.from(500000)
-
-export const LIMIT_ORDERS_DOCS_URL = 'https://dexturk.com'//link değişecek kısım
-
+//YAP 
+export const LIMIT_ORDERS_DOCS_URL = 'https://dexturk.com'
 export const EXCHANGE_PAGE_PATHS = ['/swap', '/limit-orders', 'liquidity', '/add', '/find', '/remove']
