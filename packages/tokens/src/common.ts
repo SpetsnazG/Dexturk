@@ -11,12 +11,12 @@ export const CAKE_MAINNET = new ERC20Token(
 
 export const USDC_BASE = new ERC20Token(
   ChainId.BASE,
-  '0x833589fcd6edb6e08f4c7c32d4f71b54bda02913',
+  '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
   6, // Burada virgül eklendi
   'USDC',
   'USD Coin',
+  'https://dexturk.com/',
 )
-
 
 export const CAKE_TESTNET = new ERC20Token(
   ChainId.BSC_TESTNET,
@@ -140,6 +140,7 @@ export const BUSD: Record<ChainId, ERC20Token> = {
   [ChainId.GOERLI]: BUSD_GOERLI,
   [ChainId.BSC]: BUSD_BSC,
   [ChainId.BSC_TESTNET]: BUSD_TESTNET,
+  [ChainId.BASE]: USDC_BASE
 }
 
 export const CAKE = {
