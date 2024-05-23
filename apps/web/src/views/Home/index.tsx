@@ -355,10 +355,54 @@ export default function Swap() {
                 color: #a3a4a5;
                 font-size: 20px;
               `
-              const styles = {
+              
+              const styles: {
+                sub: {
+                  display: string;
+                  flexDirection: ResponsiveValue<FlexDirection>;
+                  alignItems: string;
+                  justifyContent: string;
+                  backgroundColor: string;
+                  border: string;
+                  borderRadius: string;
+                };
+                sub1: {
+                  display: string;
+                  flexDirection: ResponsiveValue<FlexDirection>;
+                  alignItems: string;
+                  justifyContent: string;
+                  backgroundColor: string;
+                  border: string;
+                  borderRadius: string;
+                };
+                sub2: {
+                  display: string;
+                  gridTemplateColumns: string;
+                  gridTemplateRows: string;
+                  gridColumnGap: string;
+                  gridRowGap: string;
+                };
+                subText1: {
+                  fontFamily: string;
+                  fontSize: string;
+                  fontWeight: number;
+                  lineHeight: string;
+                  textAlign: string;
+                  color: string;
+                };
+              } = {
                 sub: {
                   display: 'flex',
                   flexDirection: ['column', 'row'],
+                  alignItems: 'center',
+                  justifyContent: 'space-between',
+                  backgroundColor: '#181c1d',
+                  border: 'none',
+                  borderRadius: '0px',
+                },
+                sub1: {
+                  display: 'flex',
+                  flexDirection: ['row', 'column'],
                   alignItems: 'center',
                   justifyContent: 'space-between',
                   backgroundColor: '#181c1d',
@@ -372,15 +416,6 @@ export default function Swap() {
                   gridColumnGap: '30px',
                   gridRowGap: '30px',
                 },
-                sub1: {
-                  display: 'flex',
-                  flexDirection: ['row', 'column'], 
-                  alignItems: 'center',
-                  justifyContent: 'space-between',
-                  backgroundColor: '#181c1d',
-                  border: 'none',
-                  borderRadius: '0px',
-                },
                 subText1: {
                   fontFamily: 'Sen',
                   fontSize: '50px',
@@ -389,4 +424,4 @@ export default function Swap() {
                   textAlign: 'left',
                   color: '#34707B',
                 },
-              }
+              };
