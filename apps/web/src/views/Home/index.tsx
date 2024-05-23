@@ -360,7 +360,7 @@ export default function Swap() {
               const styles = {
                 sub: {
                   display: 'flex',
-                  flexDirection: ['column', 'row']
+                  flexDirection: 'column',
                   alignItems: 'center',
                   justifyContent: 'space-between',
                   backgroundColor: '#181c1d',
@@ -376,7 +376,7 @@ export default function Swap() {
                 },
                 sub1: {
                   display: 'flex',
-                  flexDirection: ['row', 'column']
+                  flexDirection: 'row', 
                   alignItems: 'center',
                   justifyContent: 'space-between',
                   backgroundColor: '#181c1d',
