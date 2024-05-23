@@ -139,9 +139,9 @@ export default function Swap() {
           <Flex marginTop="100px">
             <Image src={'/landing_limit_ss.png'} width={1200} height={1000} alt="" />
           </Flex>
-          <Flex display="flex" flexDirection="row" marginTop="100px">
+          <Flex display="flex" flexDirection={["row"]}marginTop="100px">
             <BackgroundObject />
-            <Flex display="flex" flexDirection="column" alignItems="center" marginLeft="240px">
+            <Flex display="flex" flexDirection={["column"]} alignItems="center" marginLeft="240px">
               <DivGrid>
                 <Landing_Feature
                   src="account-abstraction.png"
