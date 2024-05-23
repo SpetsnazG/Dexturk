@@ -44,7 +44,7 @@ export const LayerZeroWidget = ({ theme }: { theme: PancakeTheme }) => {
         }
 
         .dark [id^='radix-'] {
-          background-color: #0a1a39;
+          background-color: #181c1d;
         }
 
         .light [id^='radix-'] {
