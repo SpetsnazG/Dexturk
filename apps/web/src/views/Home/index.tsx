@@ -92,8 +92,8 @@ export default function Swap() {
           <Flex {...styles.sub1}>
             <Flex
               id="cryptoText1"
-              display="flex"
-              flexDirection="column"
+              display={["flex"]}
+              flexDirection={["column"]}
               alignItems="start"
               flex={1}
               justifyContent="space-between"
