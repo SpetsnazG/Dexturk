@@ -88,8 +88,8 @@ export default function Swap() {
       </ModalV2>
 
       <AppBody>
-        <Flex {styles.sub}>
-          <Flex {styles.sub1}>
+        <Flex {...styles.sub}>
+          <Flex {...styles.sub1}>
             <Flex
               id="cryptoText1"
               display="flex"
