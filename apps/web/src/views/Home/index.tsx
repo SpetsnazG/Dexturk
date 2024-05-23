@@ -94,7 +94,7 @@ export default function Swap() {
               id="cryptoText1"
               display={["flex"]}
               flexDirection={["column"]}
-              alignItems="start"
+              alignItems={["flex-start"]}
               flex={1}
               justifyContent="space-between"
               backgroundColor="#181c1d"
