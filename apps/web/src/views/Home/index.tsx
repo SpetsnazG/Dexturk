@@ -92,15 +92,13 @@ export default function Swap() {
           <Flex {...styles.sub1}>
             <Flex
               id="cryptoText1"
-              {...{
-                display: 'flex',
-                flexDirection: 'column',
-                alignItems: 'start',
-                flex: 1,
-                justifyContent: 'space-between',
-                backgroundColor: '#181c1d',
-                flexWrap: 'wrap',
-              }}
+              display="flex"
+              flexDirection="column"
+              alignItems="start"
+              flex={1}
+              justifyContent="space-between"
+              backgroundColor="#181c1d"
+              flexWrap="wrap"
             >
               <Div>
                 <Div2>NEW</Div2>
@@ -114,12 +112,10 @@ export default function Swap() {
                 <Text {...styles.subText1}>{t('Improved')}</Text>
               </Text>
               <Flex
-                {...{
-                  display: 'flex',
-                  flexDirection: 'row',
-                  justifyContent: 'center',
-                  alignItems: 'baseline',
-                }}
+                display="flex"
+                flexDirection="row"
+                justifyContent="center"
+                alignItems="baseline"
               >
                 <DivT1>Trade Now</DivT1>
                 <DivC1>
@@ -140,56 +136,43 @@ export default function Swap() {
             </Div3TR1>
             <Div4TR1>Trade Now</Div4TR1>
           </DivTR1>
-          <Flex {...{ marginTop: '100px' }}>
+          <Flex marginTop="100px">
             <Image src={'/landing_limit_ss.png'} width={1200} height={1000} alt="" />
           </Flex>
-          <Flex {...{ display: 'flex', flexDirection: 'row', marginTop: '100px' }}>
+          <Flex display="flex" flexDirection="row" marginTop="100px">
             <BackgroundObject />
-            <Flex {...{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginLeft: '240px' }}>
+            <Flex display="flex" flexDirection="column" alignItems="center" marginLeft="240px">
               <DivGrid>
                 <Landing_Feature
-                  {...{
-                    src: 'account-abstraction.png',
-                    title: 'Account Abstraction',
-                    definition:
-                      'Trade directly from your wallet without the need to deposit any assets into a central account.',
-                  }}
+                  src="account-abstraction.png"
+                  title="Account Abstraction"
+                  definition="Trade directly from your wallet without the need to deposit any assets into a central account."
                 />
                 <Landing_Feature
-                  {...{
-                    src: 'leverage.png',
-                    title: 'Upto 100x Leverage',
-                    definition:
-                      'Our unique pool-to-peer model facilitates trading with up to 100x leverage on all your favorite cryptocurrencies.',
-                  }}
+                  src="leverage.png"
+                  title="Upto 100x Leverage"
+                  definition="Our unique pool-to-peer model facilitates trading with up to 100x leverage on all your favorite cryptocurrencies."
                 />
                 <Landing_Feature
-                  {...{
-                    src: 'zero-price-impact.png',
-                    title: 'Zero Price Impact',
-                    definition: 'Trade any asset of any size with zero price impact and minimal spread.',
-                  }}
+                  src="zero-price-impact.png"
+                  title="Zero Price Impact"
+                  definition="Trade any asset of any size with zero price impact and minimal spread."
                 />
                 <Landing_Feature
-                  {...{
-                    src: 'asset-perpetuals.png',
-                    title: 'Asset Backed Perpetuals',
-                    definition: "All margin positions are fully backed by assets in Flash's liquidity pool.",
-                  }}
+                  src="asset-perpetuals.png"
+                  title="Asset Backed Perpetuals"
+                  definition="All margin positions are fully backed by assets in Flash's liquidity pool."
                 />
               </DivGrid>
               <Landing_Feature
-                {...{
-                  src: 'isolated-margin.png',
-                  title: 'Isolated Margin',
-                  definition:
-                    'Trade directly from your wallet without the need to deposit any assets into a central account.',
-                }}
+                src="isolated-margin.png"
+                title="Isolated Margin"
+                definition="Trade directly from your wallet without the need to deposit any assets into a central account."
               />
             </Flex>
           </Flex>
         </Flex>
-        <Flex {...{ display: 'flex', flexDirection: 'row', justifyContent: 'space-evenly' }}>
+        <Flex display="flex" flexDirection="row" justifyContent="space-evenly">
           <Image
             src={'/global_network.png'}
             width={500}
@@ -197,7 +180,7 @@ export default function Swap() {
             alt=""
             style={{ height: '580px', width: '580px', alignSelf: 'center' }}
           />
-          <Flex {...{ display: 'flex', flexDirection: 'column', marginTop: '10px' }}>
+          <Flex display="flex" flexDirection="column" marginTop="10px">
             <DivG1>
               <Div2G1>
                 Self <span style={{ color: '#31eaf6' }}>custodial </span>and
@@ -210,7 +193,7 @@ export default function Swap() {
               </Div3G1>
             </DivG1>
             <DivG1>
-              <Flex {...{ display: 'flex', flexDirection: 'row' }}>
+              <Flex display="flex" flexDirection="row">
                 <Div2G1>
                   <Img src={'/images/check.png'} />
                   Faster than your <span style={{ color: '#31eaf6' }}>favourite CEX </span>
@@ -219,7 +202,7 @@ export default function Swap() {
               <Div3G1>Trade at the speed of light with our new unique trading architecture.</Div3G1>
             </DivG1>
             <DivG1>
-              <Flex {...{ display: 'flex', flexDirection: 'row' }}>
+              <Flex display="flex" flexDirection="row">
                 <Div2G1>
                   <Img src={'/images/check.png'} />
                   Transparent by <span style={{ color: '#31eaf6' }}>design </span>
@@ -248,7 +231,6 @@ const Img = styled.img`
   border: 4px solid #0D821F;
   width: 36px;
   height: 36px;
-}
 `
 
 const DivG1 = styled.div`
