@@ -165,8 +165,6 @@ export default function Swap() {
                 />
               </DivGrid>
               <Landing_Feature
-                src="isolated
-                <Landing_Feature
                 src="isolated-margin.png"
                 title="Isolated Margin"
                 definition="Trade directly from your wallet without the need to deposit any assets into a central account."
@@ -392,4 +390,3 @@ export default function Swap() {
                   color: '#34707B',
                 },
               }
-              
