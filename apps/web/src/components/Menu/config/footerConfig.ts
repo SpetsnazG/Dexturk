@@ -49,12 +49,12 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
     items: [
       {
         label: t('Blog'),
-        href: '#',
+        href: '/blog',
         isHighlighted: true,
       },
       {
         label: t('About'),
-        href: '#',
+        href: '/about',
       },
     ],
   },
@@ -63,11 +63,11 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
     items: [
       {
         label: t('Privacy Policy'),
-        href: '#',
+        href: '/policy',
       },
       {
         label: t('Terms and Conditions'),
-        href: '#',
+        href: '/terms',
       },
     ],
   } ,
