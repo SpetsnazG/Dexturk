@@ -15,6 +15,7 @@ import Landing_Feature from './components/Landing_Feature'
 import { SwapFeaturesContext } from './SwapFeaturesContext'
 import styled from 'styled-components'
 import HotTokenList from './components/HotTokenList'
+//import CryptoTicker from './components/CryptoTicker' - kayan fiyatlar pasif
 
 export default function Swap() {
   const { isMobile } = useMatchBreakpoints()
@@ -86,7 +87,7 @@ export default function Swap() {
           <HotTokenList />
         </Modal>
       </ModalV2>
-
+      
       <AppBody>
         <Flex
           display={'flex'}
