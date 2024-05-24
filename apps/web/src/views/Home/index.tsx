@@ -213,7 +213,7 @@ export default function Swap() {
                   {...{
                     src: 'asset-perpetuals.png',
                     title: 'Asset Backed Perpetuals',
-                    definition: 'All margin positions are fully backed by assets in Flash's liquidity pool.',
+                    definition: 'All margin positions are fully backed by assets in Flashs liquidity pool.',
                   }}
                 />
               </DivGrid>
