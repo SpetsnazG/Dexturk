@@ -1,7 +1,6 @@
 import { FooterLinkType } from '@pancakeswap/uikit'
 import { ContextApi } from '@pancakeswap/localization'
-
-export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
+const footerLinksOld: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
   {
     label: t('About'),
     items: [
@@ -43,4 +42,33 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
       
     ],
   },
+];
+export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
+  {
+    label: t('Company'),
+    items: [
+      {
+        label: t('Blog'),
+        href: '#',
+        isHighlighted: true,
+      },
+      {
+        label: t('About'),
+        href: '#',
+      },
+    ],
+  },
+  {
+    label: t('Legal'),
+    items: [
+      {
+        label: t('Privacy Policy'),
+        href: '#',
+      },
+      {
+        label: t('Terms and Conditions'),
+        href: '#',
+      },
+    ],
+  } ,
 ]

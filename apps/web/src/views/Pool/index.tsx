@@ -104,7 +104,7 @@ export default function Pool() {
 
     return (
       <Text color="textSubtle" textAlign="center">
-        {t('No liquidity found.')}
+        {t('No liquidity found..')}
       </Text>
     )
   }

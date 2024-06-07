@@ -44,14 +44,14 @@ export const darkTheme = {
     },
     divider: darkColors.cardBorder,
     background: {
-      default: '#0a1a39',
+      default: '#181c1d',
     },
   },
   shape: {
     borderRadius: 18,
   },
   typography: {
-    fontFamily: "'Kanit', sans-serif",
+    fontFamily: "'Sen', sans-serif",
   },
 }
 
@@ -93,6 +93,6 @@ export const lightTheme = {
     borderRadius: 18,
   },
   typography: {
-    fontFamily: "'Kanit', sans-serif",
+    fontFamily: "'Sen', sans-serif",
   },
 }

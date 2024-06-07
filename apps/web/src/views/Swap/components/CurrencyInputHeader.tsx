@@ -56,7 +56,7 @@ const CurrencyInputHeader: React.FC<React.PropsWithChildren<Props>> = ({
           <Flex flexDirection="column" alignItems="flex-start" width="100%" marginBottom={15}>
             <Swap.CurrencyInputHeaderTitle>{title}</Swap.CurrencyInputHeaderTitle>
           </Flex>
-          <Flex justifyContent="start" width="100%" height="17px" alignItems="center" mb="14px">
+          <Flex justifyContent="center" width="100%" height="17px" alignItems="center" mb="14px">
             <Swap.CurrencyInputHeaderSubTitle>{subtitle}</Swap.CurrencyInputHeaderSubTitle>
           </Flex>
           <Flex width="100%" justifyContent="end">

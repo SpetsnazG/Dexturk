@@ -18,13 +18,18 @@ export const StyledList = styled.ul`
 
 export const StyledListItem = styled.li`
   font-size: 16px;
-  margin-bottom: 8px;
+  margin-top: 50px;
   text-transform: capitalize;
 
   &:first-child {
-    color: ${darkColors.secondary};
-    font-weight: 600;
-    text-transform: uppercase;
+    margin-top: 0px;
+    color: #ffffff;
+    font-weight: 700;
+    font-weight: 700;
+    opacity: 60%;
+    font-family: Sen, sans-serif;
+    font-size: 25px;
+    line-height: 30.08px;
   }
 `;
 

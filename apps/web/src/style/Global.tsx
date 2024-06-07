@@ -8,11 +8,11 @@ declare module 'styled-components' {
 
 const GlobalStyle = createGlobalStyle`
   * {
-    font-family: 'Kanit', sans-serif;
+    font-family: 'Sen', sans-serif;
   }
   body {
-    /* background-color: ${({ theme }) => theme.colors.background}; */
-    background-image: url("/background.png");
+     background-color: #181c1d;
+     /* background-image: url("/background.png"); */
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;

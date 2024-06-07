@@ -63,7 +63,7 @@ const ResetCSS = createGlobalStyle`
     box-sizing: border-box;
   }
   * {
-    font-family: 'Kanit', sans-serif;
+    font-family: 'Sen', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
@@ -111,6 +111,11 @@ const ResetCSS = createGlobalStyle`
     border-color: transparent;
     color: transparent;
   }  
+  @font-face {
+    font-family: "Sen";
+    src: local("Sen"),
+      url(./fonts/Sen.ttf) format("truetype");
+  }
 `;
 
 export default ResetCSS;

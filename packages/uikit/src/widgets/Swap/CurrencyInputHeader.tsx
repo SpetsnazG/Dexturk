@@ -18,12 +18,21 @@ export const CurrencyInputHeader = ({ title, subtitle }: Props) => {
     </AtomBox>
   );
 };
+//style={{ backgroundImage: "/swap_page_bg.png", backgroundColor: "red" }}
 
 export const CurrencyInputHeaderTitle = ({ children }: { children: ReactNode }) => (
-  <Heading as="h2">{children}</Heading>
+  <Text
+    color="#31EAF6"
+    fontSize="50px"
+    textAlign="center"
+    fontWeight="700"
+    style={{ alignSelf: "center", textShadow: "2px 2px 15px #31EAF6" }}
+  >
+    {children}
+  </Text>
 );
 export const CurrencyInputHeaderSubTitle = ({ children }: { children: ReactNode }) => (
-  <Text color="textSubtle" fontSize="14px" textAlign="center">
+  <Text color="textSubtle" fontSize="20px" style={{ alignSelf: "center" }}>
     {children}
   </Text>
 );

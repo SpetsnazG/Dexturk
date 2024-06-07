@@ -13,7 +13,7 @@ const Wrapper = styled.div`
 const LaurelWrapper = styled.div<{ dir?: 'left' | 'right' }>`
   transform: ${({ dir }) => (dir === 'left' ? 'rotate(30deg)' : 'rotate(-30deg)')};
   svg {
-    fill: #0a1a39;
+    fill: #181c1d;
     opacity: 0.5;
     height: 32px;
     width: auto;

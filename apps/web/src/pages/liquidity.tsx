@@ -1,7 +1,8 @@
 import { CHAIN_IDS } from 'utils/wagmi'
 import Liquidity from '../views/Pool'
+import LiquidityNew from '../views/PoolNew'
 
-const LiquidityPage = () => <Liquidity />
+const LiquidityPage = () => <LiquidityNew />
 
 LiquidityPage.chains = CHAIN_IDS
 

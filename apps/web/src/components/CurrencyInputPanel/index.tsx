@@ -51,6 +51,7 @@ const InputPanel = styled.div`
   position: relative;
   background-color: ${({ theme }) => theme.colors.backgroundAlt};
   z-index: 1;
+  border-radius: 16px;
 `
 const Container = styled.div<{ zapStyle?: ZapStyle; error?: boolean }>`
   border-radius: 16px;
@@ -165,7 +166,7 @@ export default function CurrencyInputPanel({
 
   return (
     <Box position="relative" id={id}>
-      <Flex alignItems="center" justifyContent="space-between">
+      <Flex alignItems="center" justifyContent="flex-end">
         <Flex>
           {beforeButton}
           <CurrencySelectButton
@@ -236,7 +237,12 @@ export default function CurrencyInputPanel({
         )}
       </Flex>
       <InputPanel>
-        <Container as="label" zapStyle={zapStyle} error={error}>
+        <Container
+          as="label"
+          zapStyle={zapStyle}
+          error={error}
+          style={{ backgroundColor: '#1b2426', borderRadius: '16px' }}
+        >
           <LabelRow>
             <NumericalInput
               error={error}
